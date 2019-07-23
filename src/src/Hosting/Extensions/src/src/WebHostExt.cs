@@ -5,7 +5,7 @@
 // <author>Samet Kurumahmut</author>
 //-----------------------------------------------------------------------
 
-namespace Bayhaksam.AspNetCore.Hosting.Extensions.src
+namespace Bayhaksam.AspNetCore.Hosting.Extensions
 {
 	using Bayhaksam.Data;
 	using Microsoft.AspNetCore.Hosting;
