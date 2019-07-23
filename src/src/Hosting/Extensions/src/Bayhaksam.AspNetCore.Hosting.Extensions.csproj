@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Bayhaksam.AspNetCore.Hosting.Extensions API</Description>
+    <Copyright>Copyright © 2015 - 2019 Bayhaksam. All rights reserved.</Copyright>
+    <Version>0.0.1</Version>
+    <PackageProjectUrl>https://github.com/sametkurumahmut/Bayhaksam.AspNetCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sametkurumahmut/Bayhaksam.AspNetCore</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Bayhaksam.AspNetCore.Hosting.Extensions.xml</DocumentationFile>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="src\" />
+  </ItemGroup>
+
+</Project>
