@@ -15,7 +15,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="src\" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Bayhaksam.Data">
+      <HintPath>..\..\..\..\lib\Bayhaksam\Bayhaksam.Data.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
