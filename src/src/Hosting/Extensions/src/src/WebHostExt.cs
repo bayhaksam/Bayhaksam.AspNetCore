@@ -16,16 +16,18 @@ namespace Bayhaksam.AspNetCore.Hosting.Extensions
 	public static class WebHostExt
 	{
 		#region Public Methods
-		public static void SeedDatabase<TDbSeeder, TLoggerCategoryName>(this IWebHost src)
+		public static IWebHost SeedDatabase<TDbSeeder, TLoggerCategoryName>(this IWebHost src)
 			where TDbSeeder : IDbSeeder
 		{
 			using (var scope = src.Services.CreateScope())
 			{
 				SeedData<TDbSeeder, TLoggerCategoryName>(scope.ServiceProvider);
 			}
+
+			return src;
 		}
 
-		public static void SeedDatabaseForDevelopment<TDbSeeder, TLoggerCategoryName>(this IWebHost src)
+		public static IWebHost SeedDatabaseForDevelopment<TDbSeeder, TLoggerCategoryName>(this IWebHost src)
 			where TDbSeeder : IDbSeeder
 		{
 			using (var scope = src.Services.CreateScope())
@@ -36,6 +38,8 @@ namespace Bayhaksam.AspNetCore.Hosting.Extensions
 					SeedData<TDbSeeder, TLoggerCategoryName>(services);
 				}
 			}
+
+			return src;
 		}
 		#endregion
 
