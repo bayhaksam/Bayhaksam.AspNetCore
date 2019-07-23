@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bayhaksam</name>
+    </assembly>
+    <members>
+        <member name="T:Bayhaksam.Audio.IMuter">
+            <summary>
+            Muter interface to mute/un-mute the sound.
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Audio.IMuter.Mute">
+            <summary>
+            Mutes the sound.
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Audio.IMuter.Mute(System.Boolean)">
+            <summary>
+            Mutes the sound by specified <paramref name="value"/>.
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Audio.IMuter.UnMute">
+            <summary>
+            Un-Mutes the sound.
+            </summary>
+        </member>
+        <member name="P:Bayhaksam.SingletonBase`2.Instance">
+            <summary>
+            Gets singleton instance.
+            </summary>
+        </member>
+        <member name="P:Bayhaksam.SingletonBase`2.LazyInstance">
+            <summary>
+            Gets value for lazy initialization.
+            </summary>
+        </member>
+    </members>
+</doc>

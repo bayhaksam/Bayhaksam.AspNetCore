@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bayhaksam.Extensions</name>
+    </assembly>
+    <members>
+        <member name="T:Bayhaksam.Extensions.CharExt">
+            <summary>
+            Extensions for <see cref="T:System.Char"/> class.
+            </summary>
+        </member>
+        <member name="T:Bayhaksam.Extensions.DateTimeExt">
+            <summary>
+            <see cref="T:System.DateTime"/>' s extension class
+            </summary>
+        </member>
+        <member name="T:Bayhaksam.Extensions.EnumExt">
+            <summary>
+            <see cref="T:System.Enum"/>' s extension class
+            </summary>
+        </member>
+        <member name="T:Bayhaksam.Extensions.ObjectExt">
+            <summary>
+            <see cref="T:System.Object"/>' s extension class
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Extensions.ObjectExt.Is``1(System.Object)">
+            <summary>
+            <paramref name="obj"/>
+            	is a
+            	<typeparamref name="T"/>.
+            </summary>
+            <typeparam name="T">Type to detect
+            	<paramref name="obj"/>
+            	is a
+            	<typeparamref name="T"/>
+            	.
+            </typeparam>
+            <param name="obj">Object.</param>
+            <returns>Returns if the object is
+            	<typeparamref name="T"/>
+            	.
+            </returns>
+        </member>
+        <member name="M:Bayhaksam.Extensions.ObjectExt.IsNot``1(System.Object)">
+            <summary>
+            <paramref name="obj"/>
+            	is not a
+            	<typeparamref name="T"/>.
+            </summary>
+            <typeparam name="T">Type to detect
+            	<paramref name="obj"/>
+            	is not a
+            	<typeparamref name="T"/>
+            	.
+            </typeparam>
+            <param name="obj">Object.</param>
+            <returns>Returns if the object is
+            	<typeparamref name="T"/>
+            	.
+            </returns>
+        </member>
+        <member name="T:Bayhaksam.Extensions.StringExt">
+            <summary>
+            Extensions for <see cref="T:System.String"/> class.
+            </summary>
+        </member>
+        <member name="M:Bayhaksam.Extensions.StringExt.AppendNewLineEnd(System.String)">
+            <summary>
+            Appends new line the end of the <paramref name="source"/>.
+            </summary>
+            <param name="source">The string</param>
+            <returns>Returns appended new string.</returns>
+        </member>
+        <member name="M:Bayhaksam.Extensions.StringExt.AppendNewLineStart(System.String)">
+            <summary>
+            Appends new line the start of the <paramref name="source"/>.
+            </summary>
+            <param name="source">The string</param>
+            <returns>Returns appended new string.</returns>
+        </member>
+        <member name="M:Bayhaksam.Extensions.StringExt.IndexOfFirstDigit(System.String)">
+            <summary>
+            Gets index of first digit.
+            <para>Returns -1 when not found any digit.</para>
+            </summary>
+            <param name="source">The string</param>
+            <returns>Returns index of first digit.</returns>
+        </member>
+        <member name="M:Bayhaksam.Extensions.StringExt.IndexOfFirstLetter(System.String)">
+            <summary>
+            Gets index of first letter.
+            <para>Returns -1 when not found any letter.</para>
+            </summary>
+            <param name="source">The string</param>
+            <returns>Returns index of first letter.</returns>
+        </member>
+        <member name="M:Bayhaksam.Extensions.StringExt.IndexOfNth(System.String,System.Char,System.Int32)">
+            <summary>
+            Determines the index of the nth occurrence of value in the string.
+            <para>Returns -1 when not found.</para>
+            </summary>
+            <param name="source">The string</param>
+            <param name="value">The search begins from start index</param>
+            <param name="n">Which occurrence ?</param>
+            <returns>Returns the index of the nth occurrence of value in the string.</returns>
+        </member>
+        <member name="M:Bayhaksam.Extensions.StringExt.IndexOfNth(System.String,System.Char,System.Int32,System.Int32)">
+            <summary>
+            Determines the index of the nth occurrence of value in the string.
+            <para>Returns -1 when not found.</para>
+            </summary>
+            <param name="source">The string</param>
+            <param name="value">The value</param>
+            <param name="startIndex">The search begins from start index</param>
+            <param name="n">Which occurrence ?</param>
+            <returns>Returns the index of the nth occurrence of value in the string.</returns>
+        </member>
+    </members>
+</doc>

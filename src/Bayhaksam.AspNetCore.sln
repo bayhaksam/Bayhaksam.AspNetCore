@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A76D844B-4340-4C04-A995-0575EFEB5CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bayhaksam", "Bayhaksam", "{4875244C-2A47-45D6-B58E-3CEB027846C7}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Bayhaksam\Bayhaksam.Collections.Generic.Extensions.dll = lib\Bayhaksam\Bayhaksam.Collections.Generic.Extensions.dll
+		lib\Bayhaksam\Bayhaksam.Data.dll = lib\Bayhaksam\Bayhaksam.Data.dll
+		lib\Bayhaksam\Bayhaksam.dll = lib\Bayhaksam\Bayhaksam.dll
+		lib\Bayhaksam\Bayhaksam.Extensions.dll = lib\Bayhaksam\Bayhaksam.Extensions.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{504BC96E-968E-4736-9C14-69149D7AF5B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bayhaksam.AspNetCore", "src\src\Bayhaksam.AspNetCore.csproj", "{A4BDA7C1-F15A-4313-AC3B-757D343D73AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4BDA7C1-F15A-4313-AC3B-757D343D73AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BDA7C1-F15A-4313-AC3B-757D343D73AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BDA7C1-F15A-4313-AC3B-757D343D73AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BDA7C1-F15A-4313-AC3B-757D343D73AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4875244C-2A47-45D6-B58E-3CEB027846C7} = {A76D844B-4340-4C04-A995-0575EFEB5CF3}
+		{A4BDA7C1-F15A-4313-AC3B-757D343D73AD} = {504BC96E-968E-4736-9C14-69149D7AF5B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFD236A3-6402-4085-BDCC-92FA401D166D}
+	EndGlobalSection
+EndGlobal

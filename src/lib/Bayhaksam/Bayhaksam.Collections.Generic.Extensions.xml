@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bayhaksam.Collections.Generic.Extensions</name>
+    </assembly>
+    <members>
+        <member name="T:Bayhaksam.Collections.Generic.Extensions.IListExt">
+            <summary>
+            Extensions for <see cref="T:System.Collections.Generic.IList`1"/> class.
+            </summary>
+        </member>
+    </members>
+</doc>
