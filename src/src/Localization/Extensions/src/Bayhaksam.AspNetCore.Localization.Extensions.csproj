@@ -2,10 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>Copyright © 2015 - 2019 Bayhaksam. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/sametkurumahmut/Bayhaksam.AspNetCore</PackageProjectUrl>
+    <Description>Bayhaksam.AspNetCore.Localization.Extensions API</Description>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>bin\Debug\netstandard2.0\Bayhaksam.AspNetCore.Localization.Extensions.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="src\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
   </ItemGroup>
 
 </Project>
