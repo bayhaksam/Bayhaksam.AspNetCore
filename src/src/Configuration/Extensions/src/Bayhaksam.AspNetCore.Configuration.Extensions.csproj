@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/sametkurumahmut/Bayhaksam.AspNetCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sametkurumahmut/Bayhaksam.AspNetCore</RepositoryUrl>
+    <Copyright>Copyright © 2015 - 2019 Bayhaksam. All rights reserved.</Copyright>
+    <Description>Bayhaksam.AspNetCore.Configuration.Extensions API</Description>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>bin\Debug\netstandard2.0\Bayhaksam.AspNetCore.Configuration.Extensions.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
